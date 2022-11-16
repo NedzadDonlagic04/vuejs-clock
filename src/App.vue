@@ -16,7 +16,7 @@ export default {
     },
     computed: {
         getHours() {
-            const hours = this.date.getHours();
+            let hours = this.date.getHours();
 
             if(hours >= 12)
             {
